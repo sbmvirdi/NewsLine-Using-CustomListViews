@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="140dp">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/aajtaknews"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/newsicon"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/newsicon"
+        android:text="Aaj Tak"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/newsname"
+        android:gravity="end"
+        android:textColor="#000"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.3"
+        android:gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/newsname"
+        android:layout_toRightOf="@id/newsicon"
+        android:textSize="20sp"
+        android:id="@+id/newsrating"
+        android:textColor="#000"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#d4d4d4"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
